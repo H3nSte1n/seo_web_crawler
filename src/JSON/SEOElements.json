@@ -1,0 +1,26 @@
+{
+  "attributes": [
+    {
+      "element": "h1",
+      "range": {
+        "start": 1,
+        "end": 20
+      }
+    },
+    {
+      "element": "description",
+      "range": {
+        "start": 1,
+        "end": 20
+      },
+      "regExIndex": "meta"
+    },
+    {
+      "element": "src",
+      "range": {
+        "start": 1,
+        "end": 20
+      }
+    }
+  ]
+}
