@@ -1,7 +1,6 @@
 import {isMainThread, parentPort} from 'worker_threads';
 import { TransferedDataInterface } from '../interface/TransferedDataInterface';
-import { FetchWebsiteData } from '../FetchWebsiteData';
-import { SEOElementParser } from '../SEOElementParser';
+import { FetchWebsiteData } from '../helper/FetchWebsiteData';
 
 const run = () => {
   if (isMainThread) return;
@@ -9,7 +8,6 @@ const run = () => {
   parentPort?.on('message', async (data: TransferedDataInterface) => {
     const { value } = data;
     const html = await FetchWebsiteData.fetch(value as string);
-    const seoParser = new SEOElementParser(html);
   })
 }
 
