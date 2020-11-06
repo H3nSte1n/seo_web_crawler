@@ -13,7 +13,6 @@ worker.on('message', () => {
 
 const run = async () => {
   const html = await FetchWebsiteData.fetch('https://www.i22.de/');
-  console.log('tasdasd', html);
 
   worker.postMessage({port: port1, seoElements: ElementJSONParser.run(json.attributes), htmlBody: html}, [port1]);
 }

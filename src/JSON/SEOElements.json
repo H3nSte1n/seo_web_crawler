@@ -8,6 +8,27 @@
       }
     },
     {
+      "element": "title",
+      "range": {
+        "start": 1,
+        "end": 20
+      }
+    },
+    {
+      "element": "head",
+      "range": {
+        "start": 1,
+        "end": 20
+      }
+    },
+    {
+      "element": "body",
+      "range": {
+        "start": 1,
+        "end": 20
+      }
+    },
+    {
       "element": "description",
       "range": {
         "start": 1,
@@ -16,7 +37,7 @@
       "regExIndex": "meta"
     },
     {
-      "element": "src",
+      "element": "img",
       "range": {
         "start": 1,
         "end": 20

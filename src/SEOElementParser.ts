@@ -14,7 +14,8 @@ export class SEOElementParser {
 
   public parseElements() {
     this.SEOElements.forEach(SEOElement => {
-      console.log('asdsadasd123', ElementTester.run(SEOElement, this.body));
+      const result = ElementTester.run(SEOElement, this.body);
+      console.log(result);
     })
   }
 }
