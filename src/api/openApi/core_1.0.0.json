@@ -1,0 +1,17 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "",
+    "description": "",
+    "contact": {
+      "name": "API Support",
+      "email": "Henrysteinhauer@t-online.de",
+      "url": "https://github.com/H3nSte1n"
+    },
+    "license": {
+      "name": "",
+      "url": ""
+    }
+  }
+}
