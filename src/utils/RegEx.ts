@@ -1,7 +1,7 @@
 import { SEOElementsRegEx } from "../RegExStore/SEOElementsRegEx";
-import { SEOElementInterface } from "./SEOElementInterface";
+import { SEOElementInterface } from "../interface/SEOElementInterface";
 
-export class RegExPattern {
+export class RegEx {
 
   public static getRegEx(SEOElement: SEOElementInterface): string {
     const elementName = SEOElement?.regExIndex ?? SEOElement.element;

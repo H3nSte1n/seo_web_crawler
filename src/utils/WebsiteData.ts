@@ -1,6 +1,6 @@
 import request from 'request';
 
-export class FetchWebsiteData {
+export class WebsiteData {
 
   public static fetch(host: string) {
     return new Promise((resolve, reject) => {

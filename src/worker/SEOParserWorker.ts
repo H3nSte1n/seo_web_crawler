@@ -9,7 +9,6 @@ const run = () => {
     const { seoElements, htmlBody } = data;
     const parser = new SEOElementParser(htmlBody, seoElements);
     parser.parseElements();
-    console.log('finish')
   })
 }
 
