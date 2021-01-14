@@ -4,7 +4,6 @@ export class ErrorMessage {
 
   public static create(conditionalsArray: ConditionalsArray[], element: string): string {
     let errorMessage: string = '';
-    
     conditionalsArray.forEach(conditionalObj => {
       const regEx = new RegExp(conditionalObj.condition);
       errorMessage = conditionalObj.errorMessage;
