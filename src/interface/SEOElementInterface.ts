@@ -6,7 +6,7 @@ export interface SEOElementResultInterface {
   length?: boolean,
   status?: number,
   errorMessage?: string,
-  seoContent?: boolean //TODO Check SEO Element for content
+  seoContent?: boolean // TODO Check SEO Element for content
 }
 
 export interface SEOElementInterface {

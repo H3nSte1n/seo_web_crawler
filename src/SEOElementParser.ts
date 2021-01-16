@@ -1,4 +1,4 @@
-import { ElementTester } from './helper/ElementTester';
+import { SEOElementTester } from './SEOElementTester';
 import { SEOElementInterface } from './interface/SEOElementInterface';
 
 export class SEOElementParser {
@@ -14,7 +14,7 @@ export class SEOElementParser {
 
   public parseElements() {
     this.SEOElements.forEach(SEOElement => {
-      const result = ElementTester.run(SEOElement, this.body);
+      const result = SEOElementTester.run(SEOElement, this.body);
       console.log(result);
     })
   }
